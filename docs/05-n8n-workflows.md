@@ -176,6 +176,94 @@ If a prospect or client status indicates requested diagnostic/development work b
 - suggested client message
 - next action date
 
+## Workflow 7: Affiliate Signup Tracker Sync
+
+### Purpose
+
+Keep affiliate signup/application status visible without storing sensitive credentials or private account data in GitHub.
+
+### Inputs
+
+- `data/affiliate-signup-tracker.csv`
+- manual browser AI application session notes
+- approved program emails copied into a private workspace
+
+### Trigger
+
+Manual run after each affiliate application session.
+
+### Output
+
+Update or draft a tracker row with:
+
+```text
+Program:
+Status:
+Applied Date:
+Approved Date:
+Dashboard URL:
+Tracking Link Placeholder:
+Disclosure Required:
+Next Action:
+Last Verified:
+```
+
+### Safety
+
+- Never store passwords, bank info, tax details, SSN/EIN forms, recovery codes, or private screenshots in GitHub.
+- Do not expose private affiliate IDs unless Patrick intentionally wants a link public.
+- If a program requires legal/tax/banking steps, mark them as `Private step required` and stop.
+
+## Workflow 8: Local AI Affiliate + Authority Draft Queue
+
+### Purpose
+
+Let local AI generate content drafts from the Cashflow OS without turning Nuwud into an affiliate content farm.
+
+### Inputs
+
+- `templates/ai/local-affiliate-content-agent.md`
+- `content/initial-week-authority-posts.md`
+- `content/affiliate-post-bank.md`
+- `docs/06-affiliate-alignment.md`
+- `docs/08-affiliate-activation-os.md`
+- `data/affiliate-programs.seed.csv`
+- `data/affiliate-signup-tracker.csv`
+
+### Cadence
+
+Weekly batch:
+
+- 3 authority drafts
+- 1 affiliate/tool draft
+- 1 direct offer draft
+
+### Output format
+
+```text
+Title:
+Platform:
+Post Type:
+Program Mentioned:
+Audience:
+Hook:
+Body:
+CTA:
+Disclosure Required:
+Disclosure Copy:
+Related Offer:
+Risk / Caveat:
+Approval Status: Draft
+```
+
+### Safety
+
+- Draft only; no auto-posting.
+- Human review required before publishing.
+- Affiliate disclosure required if compensated links or recommendations are included.
+- No fake results, private client details, unsupported claims, or hidden incentives.
+- Affiliate posts should never outnumber authority posts.
+
 ## Recommended first n8n build order
 
 1. Daily Cashflow Command Brief
@@ -183,4 +271,6 @@ If a prospect or client status indicates requested diagnostic/development work b
 3. Invoice / Payment Gate Reminder
 4. X / LinkedIn Authority Sprinkler
 5. Affiliate Resource Inserter
-6. Prospect-to-Content Flywheel
+6. Affiliate Signup Tracker Sync
+7. Local AI Affiliate + Authority Draft Queue
+8. Prospect-to-Content Flywheel
