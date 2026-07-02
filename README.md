@@ -63,6 +63,9 @@ templates/
 
 data/
   affiliate-programs.seed.csv
+
+content/
+  initial-week-authority-posts.md
 ```
 
 ## First 14-day target
@@ -77,12 +80,22 @@ data/
 
 ## Notion home
 
-This repo should connect to the existing Notion operating area:
-
-**Nuwud — Founder Pipeline HQ**
-
-Suggested Notion page name:
+Live Notion page:
 
 **Cashflow OS — Money Loop Command Center**
 
+https://app.notion.com/p/3911ef623177812c9ddec9707e6cb430
+
+Parent:
+
+**Nuwud — Founder Pipeline HQ**
+
 Notion should hold the live pipeline database and dashboards. GitHub should hold the durable operating docs, templates, and automation specs.
+
+## Open execution issues
+
+- #1 Build Notion Cashflow OS dashboard under Founder Pipeline HQ
+- #2 Create n8n Daily Cashflow Command Brief workflow
+- #3 Send first 5 warm money-loop follow-ups
+- #4 Apply to first aligned affiliate / partner programs
+- #5 Create first 7 authority posts for LinkedIn and X
