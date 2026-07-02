@@ -63,11 +63,15 @@ docs/
   05-n8n-workflows.md             # ⚙️ automation specs
   06-affiliate-alignment.md       # 🤝 affiliate strategy
   07-readme-visual-style.md       # 🎨 emoji/color/scannability rules
+  08-affiliate-activation-os.md   # 🤝 signup, tracker, browser/local AI rules
 
 templates/
   daily-command-brief.md          # 💸 daily money dashboard
   paid-audit-brief.md             # 🔍 standardized audit delivery
   prospect-tracker.csv            # 📊 starter warm pipeline
+  ai/
+    browser-affiliate-signup-agent.md  # 🤖 browser AI signup assistant prompt
+    local-affiliate-content-agent.md   # 🧠 local AI authority/affiliate drafting prompt
   outreach/
     warm-follow-up.md             # 💬 warm relationship follow-ups
     audit-offer-dm.md             # 🧾 paid audit pitch language
@@ -75,9 +79,11 @@ templates/
 
 data/
   affiliate-programs.seed.csv     # 💼 aligned affiliate candidates
+  affiliate-signup-tracker.csv    # 🧾 signup status, links, caveats, next actions
 
 content/
   initial-week-authority-posts.md # 📣 first LinkedIn/X post drafts
+  affiliate-post-bank.md          # 🤝 affiliate-aware post drafts and placeholders
 ```
 
 ---
@@ -122,6 +128,8 @@ Notion should hold the live pipeline database and dashboards. GitHub should hold
 - 💬 **#3** Send first 5 warm money-loop follow-ups
 - 🤝 **#4** Apply to first aligned affiliate / partner programs
 - 📣 **#5** Create first 7 authority posts for LinkedIn and X
+- 🤖 **#6** Use browser AI to apply safely to Kinsta, Shopify Partner, and n8n
+- 🧠 **#7** Use local AI to draft 5 affiliate-aware posts from `content/affiliate-post-bank.md`
 
 ---
 
